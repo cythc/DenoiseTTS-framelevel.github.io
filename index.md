@@ -82,7 +82,16 @@
     
     
 <h2>2. Synthesized samples -- Few-shot Artificial<a name="fewshot-artificial"></a></h2>
-<h3> Using three reference audios, reference audios from VCTK. </h3>
+<h3> The noise audios below are obtained by adding noise to clean audios</h3>
+    <tr>
+      <th style="text-align: left"><strong>reference audios</strong></th>
+      <td style="text-align: left"><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\GT\unseen\The project has already secured the support of Sir Sean Connery ._p237.wav" controls="" preload=""></audio></td>
+    </tr>
+    
+    
+    
+<h3> These are synthesized sampels </h3>
 <table>
     <tr>
       <th style="text-align: left">Models</th>
