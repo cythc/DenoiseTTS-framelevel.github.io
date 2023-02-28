@@ -8,7 +8,7 @@
   </head>
   <body>
 
-<h2>MRMI-TTS: Multi-reference Audios and Mutual Information-Based Zero-shot Speech Synthesis<a name="abstract"></a></h2>
+<h2>Title<a name="title"></a></h2>
     
 <h2>Abstract<a name="abstract"></a></h2>
 
@@ -16,12 +16,16 @@
 
 <h2>Contents</h2>
 <ol>
-  <li><a href="#samples-seen">Synthesized samples - Seen Speakers</a></li>
-  <li><a href="#samples-unseen">Synthesized samples – Unseen Speakers</a></li>
-  <li><a href="#samples-number">Synthesized samples – Different number of reference audios</a></li>
+  <li><a href="#multi-speaker">Synthesized samples: Multi-speaker</a></li>
+  <li><a href="#fewshot-artificial">Synthesized samples: Few-shot+Artificial</a></li>
+  <li><a href="#fewshot-realworld">Synthesized samples: Few-shot+Real-World</a></li>
 </ol>
 
-<h2>1. Synthesized samples -- Seen Speakers<a name="samples-seen"></a></h2>
+    
+    
+    
+    
+<h2>1. Synthesized samples -- Multi-speaker<a name="multi-speaker"></a></h2>
 <h3> Using three reference audios </h3>
 <table>
     <tr>
@@ -73,7 +77,11 @@
     </tr>
 </table>
     
-<h2>2. Synthesized samples -- Unseen Speakers<a name="samples-unseen"></a></h2>
+    
+    
+    
+    
+<h2>2. Synthesized samples -- Few-shot Artificial<a name="fewshot-artificial"></a></h2>
 <h3> Using three reference audios, reference audios from VCTK. </h3>
 <table>
     <tr>
@@ -120,92 +128,9 @@
     </tr>
 </table>
 
-<h3> Using three reference audios, reference audios from LibriTTS </h3>
-<table>
-    <tr>
-      <th style="text-align: left">Models</th>
-      <td style="text-align: left">P3570:Wednesday night was a difficult time for Britton .</td>
-      <td style="text-align: left">P4077:Wednesday night was a difficult time for Britton .</td>
-    </tr>
-  
-    <tr>
-      <th style="text-align: left"><strong>reference audios</strong></th>
-      <td style="text-align: left"><audio src="wavs\GT\unseen\3570_5696_000002_000000.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\GT\unseen\4077_13751_000019_000005.wav" controls="" preload=""></audio></td>
-    </tr>
-  
-    <tr>
-      <th style="text-align: left"><strong>StyleSpeech</strong></th>
-      <td style="text-align: left"><audio src="wavs\StyleSpeech\unseen\Wednesday night was a difficult time for Britton . -LibriTTS-3570.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\StyleSpeech\unseen\Wednesday night was a difficult time for Britton . -LibriTTS-4077.wav" controls="" preload=""></audio></td>
-    </tr>
-  
-    <tr>
-      <th style="text-align: left"><strong>Meta-StyleSpeech</strong></th>
-      <td style="text-align: left"><audio src="wavs\Meta-StyleSpeech\unseen\LibriTTS\Wednesday night was a difficult time for Britton . -LibriTTS-3570.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\Meta-StyleSpeech\unseen\LibriTTS\Wednesday night was a difficult time for Britton . -LibriTTS-4077.wav" controls="" preload=""></audio></td>
-    </tr>
-  
-    <tr>
-      <th style="text-align: left"><strong>MRMI-TTS w/o discriminator</strong></th>
-      <td style="text-align: left"><audio src="wavs\withou_D\unseen\Wednesday night was a difficult time for Britton . _LibriTTS-3570.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\withou_D\unseen\Wednesday night was a difficult time for Britton . _LibriTTS-4077.wav" controls="" preload=""></audio></td>      
-    </tr>
-    <tr>
-      <th style="text-align: left"><strong>MRMI-TTS w/o MI</strong></th>
-          <td style="text-align: left"><audio src="wavs\without_MI\Wednesday night was a difficult time for Britton ._P3570.wav" controls="" preload=""></audio></td>
-          <td style="text-align: left"><audio src="wavs\without_MI\Wednesday night was a difficult time for Britton ._P4077.wav" controls="" preload=""></audio></td>      
-    </tr>
-  
-    <tr>
-      <th style="text-align: left"><strong>MRMI-TTS</strong></th>
-      <td style="text-align: left"><audio src="wavs\ours\unseen\Wednesday night was a difficult time for Britton . _LibriTTS-3570.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\ours\unseen\Wednesday night was a difficult time for Britton . _LibriTTS-4077.wav" controls="" preload=""></audio></td>      
-    </tr>
-</table>
-
- <h3> Using three reference audios, reference audios from AISHELL3 </h3>
-<table>
-    <tr>
-      <th style="text-align: left">Models</th>
-      <td style="text-align: left">SSB0005:Wednesday night was a difficult time for Britton .</td>
-      <td style="text-align: left">SSB0535:Wednesday night was a difficult time for Britton .</td>
-    </tr>
-  
-    <tr>
-      <th style="text-align: left"><strong>reference audios</strong></th>
-      <td style="text-align: left"><audio src="wavs\GT\unseen\SSB00050001.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\GT\unseen\SSB05350003.wav" controls="" preload=""></audio></td>
-    </tr>
-    <tr>
-      <th style="text-align: left"><strong>StyleSpeech</strong></th>
-      <td style="text-align: left"><audio src="wavs\StyleSpeech\unseen\Wednesday night was a difficult time for Britton . -SSB0005.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\StyleSpeech\unseen\Wednesday night was a difficult time for Britton .-SSB0535.wav" controls="" preload=""></audio></td>
-    </tr>
-    <tr>
-      <th style="text-align: left"><strong>Meta-StyleSpeech</strong></th>
-      <td style="text-align: left"><audio src="wavs\Meta-StyleSpeech\unseen\AISHELL3\Wednesday night was a difficult time for Britton . -SSB0005.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\Meta-StyleSpeech\unseen\AISHELL3\Wednesday night was a difficult time for Britton .-SSB0535.wav" controls="" preload=""></audio></td>
-    </tr>
-    <tr>
-      <th style="text-align: left"><strong>MRMI-TTS w/o discriminator</strong></th>
-      <td style="text-align: left"><audio src="wavs\withou_D\unseen\Wednesday night was a difficult time for Britton . _SSB0005.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\withou_D\unseen\Wednesday night was a difficult time for Britton ._SSB0535.wav" controls="" preload=""></audio></td>      
-    </tr>
-  <tr>
-      <th style="text-align: left"><strong>MRMI-TTS w/o MI</strong></th>
-      <td style="text-align: left"><audio src="wavs\without_MI\Wednesday night was a difficult time for Britton ._SSB0005.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\without_MI\Wednesday night was a difficult time for Britton ._SSB0535.wav" controls="" preload=""></audio></td>      
-    </tr>
-    <tr>
-      <th style="text-align: left"><strong>MRMI-TTS</strong></th>
-      <td style="text-align: left"><audio src="wavs\ours\unseen\Wednesday night was a difficult time for Britton . _SSB0005.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\ours\unseen\Wednesday night was a difficult time for Britton ._SSB0535.wav" controls="" preload=""></audio></td>      
-    </tr>
-</table>
     
     
-<h2>3. Synthesized samples -- different number of reference audios <a name="samples-unseen"></a></h2>
+<h2>3. Synthesized samples -- Few-shot Real World<a name="fewshot-realworld"></a></h2>
 <table>
   <tr>
       <th style="text-align: left"><strong>models</strong></th>
