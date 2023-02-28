@@ -96,46 +96,29 @@
     <tr>
       <th style="text-align: left">Models</th>
       <td style="text-align: left">P238: She can scoop these things into three red bags , and we will go meet her Wednesday at the train station .</td>
-      <td style="text-align: left">P237:We're in the premier division and we intend to stay there .</td>
     </tr>
   
     <tr>
-      <th style="text-align: left"><strong>reference audios</strong></th>
+      <th style="text-align: left"><strong>FS2</strong></th>
       <td style="text-align: left"><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\GT\unseen\The project has already secured the support of Sir Sean Connery ._p237.wav" controls="" preload=""></audio></td>
     </tr>
   
     <tr>
-      <th style="text-align: left"><strong>Ground Truth</strong></th>
+      <th style="text-align: left"><strong>Baseline</strong></th>
       <td style="text-align: left"><audio src="wavs\GT\unseen\She can scoop these things into three red bags , and we will go meet her Wednesday at the train station ._p238.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\GT\unseen\We're in the premier division and we intend to stay there ._p237.wav" controls="" preload=""></audio></td>
     </tr>
+  
     <tr>
-      <th style="text-align: left"><strong>StyleSpeech</strong></th>
+      <th style="text-align: left"><strong>Proposed-advpitch</strong></th>
       <td style="text-align: left"><audio src="wavs\StyleSpeech\unseen\She can scoop these things into three red bags , and we will go meet her Wednesday at the train station ._p238.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\StyleSpeech\unseen\We're in the premier division and we intend to stay there ._p237.wav" controls="" preload=""></audio></td>
     </tr>
+  
     <tr>
-      <th style="text-align: left"><strong>Meta-StyleSpeech</strong></th>
+      <th style="text-align: left"><strong>Proposed</strong></th>
       <td style="text-align: left"><audio src="wavs\Meta-StyleSpeech\unseen\VCTK\She can scoop these things into three red bags , and we will go meet her Wednesday at the train station ._p238.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\Meta-StyleSpeech\unseen\VCTK\We're in the premier division and we intend to stay there ._p237.wav" controls="" preload=""></audio></td>
     </tr>
-    <tr>
-      <th style="text-align: left"><strong>MRMI-TTS w/o discriminator</strong></th>
-      <td style="text-align: left"><audio src="wavs\withou_D\unseen\She can scoop these things into three red bags , and we will go meet her Wednesday at the train station ._p238.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\withou_D\unseen\We're in the premier division and we intend to stay there ._p237.wav" controls="" preload=""></audio></td>      
-    </tr>
-  <tr>
-      <th style="text-align: left"><strong>MRMI-TTS w/o MI</strong></th>
-      <td style="text-align: left"><audio src="wavs\without_MI\She can scoop these things into three red bags , and we will go meet her Wednesday at the train station ._p238.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\without_MI\We're in the premier division and we intend to stay there ._p237.wav" controls="" preload=""></audio></td>      
-    </tr>
-    <tr>
-      <th style="text-align: left"><strong>MRMI-TTS</strong></th>
-      <td style="text-align: left"><audio src="wavs\ours\unseen\She can scoop these things into three red bags , and we will go meet her Wednesday at the train station ._p238.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\ours\unseen\We're in the premier division and we intend to stay there ._p237.wav" controls="" preload=""></audio></td>      
-    </tr>
-</table>
+  
+    </table>
 
     
     
