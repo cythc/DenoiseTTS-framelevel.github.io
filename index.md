@@ -140,8 +140,8 @@
 <tbody>
          <tr>
             <td>Female</td>
-            <td><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
-            <td><audio src="wavs\GT\unseen\The project has already secured the support of Sir Sean Connery ._p237.wav" controls="" preload=""></audio></td>
+            <td><audio src="wavs\许嵩_24.wav" controls="" preload=""></audio></td>
+            <td><audio src="wavs\许嵩_25.wav" controls="" preload=""></audio></td>
         </tr>
 </tbody>
 </table>
