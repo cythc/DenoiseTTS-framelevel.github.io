@@ -88,7 +88,7 @@
 <table class="table">
 <tbody>
          <tr>
-            <td>reference audios</td>
+            <td>Male</td>
             <td><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
             <td><audio src="wavs\GT\unseen\The project has already secured the support of Sir Sean Connery ._p237.wav" controls="" preload=""></audio></td>
         </tr>
@@ -104,26 +104,31 @@
     <tr>
       <th style="text-align: left">Models</th>
       <td style="text-align: left">P238: She can scoop these things into three red bags , and we will go meet her Wednesday at the train station .</td>
+      <td style="text-align: left">P238: She can scoop these things into three red bags , and we will go meet her Wednesday at the train station .</td>
     </tr>
   
     <tr>
       <th style="text-align: left"><strong>FS2</strong></th>
+      <td style="text-align: left"><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
     </tr>
   
     <tr>
       <th style="text-align: left"><strong>Baseline</strong></th>
       <td style="text-align: left"><audio src="wavs\GT\unseen\She can scoop these things into three red bags , and we will go meet her Wednesday at the train station ._p238.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
     </tr>
   
     <tr>
       <th style="text-align: left"><strong>Proposed-advpitch</strong></th>
       <td style="text-align: left"><audio src="wavs\StyleSpeech\unseen\She can scoop these things into three red bags , and we will go meet her Wednesday at the train station ._p238.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
     </tr>
   
     <tr>
       <th style="text-align: left"><strong>Proposed</strong></th>
       <td style="text-align: left"><audio src="wavs\Meta-StyleSpeech\unseen\VCTK\She can scoop these things into three red bags , and we will go meet her Wednesday at the train station ._p238.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
     </tr>
   
     </table>
@@ -131,27 +136,54 @@
     
     
 <h2>3. Synthesized samples -- Few-shot Real World<a name="fewshot-realworld"></a></h2>
+    
+<table class="table">
+<tbody>
+         <tr>
+            <td>Female</td>
+            <td><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
+            <td><audio src="wavs\GT\unseen\The project has already secured the support of Sir Sean Connery ._p237.wav" controls="" preload=""></audio></td>
+        </tr>
+</tbody>
+</table>
+    
+    
+    
+    
 <table>
-  <tr>
-      <th style="text-align: left"><strong>models</strong></th>
-      <td style="text-align: left">1 ref</td>
-      <td style="text-align: left">3 ref</td>     
-      <td style="text-align: left">5 ref</td>
-  </tr>
-  
-  <tr>
-      <th style="text-align: left"><strong>MIMR-TTS</strong></th>
-      <td style="text-align: left"><audio src="wavs\ours\multi\p230_002.wav" controls="" preload=""></audio></td>    
-  </tr>
-  
-  <tr>
-      <th style="text-align: left"><strong>ours</strong></th>
-      <td style="text-align: left"><audio src="wavs\ours\multi\Ask her to bring these things with her from the store.  _P230_1.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\ours\multi\Ask her to bring these things with her from the store.  _P230_3.wav" controls="" preload=""></audio></td> 
-      <td style="text-align: left"><audio src="wavs\ours\multi\Ask her to bring these things with her from the store.  _P230_5.wav" controls="" preload=""></audio></td> 
+    <tr>
+      <th style="text-align: left">Models</th>
+      <td style="text-align: left">P238: She can scoop these things into three red bags , and we will go meet her Wednesday at the train station .</td>
+      <td style="text-align: left">P238: She can scoop these things into three red bags , and we will go meet her Wednesday at the train station .</td>
     </tr>
   
-</table>
+    <tr>
+      <th style="text-align: left"><strong>FS2</strong></th>
+      <td style="text-align: left"><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
+    </tr>
+  
+    <tr>
+      <th style="text-align: left"><strong>Baseline</strong></th>
+      <td style="text-align: left"><audio src="wavs\GT\unseen\She can scoop these things into three red bags , and we will go meet her Wednesday at the train station ._p238.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
+    </tr>
+  
+    <tr>
+      <th style="text-align: left"><strong>Proposed-advpitch</strong></th>
+      <td style="text-align: left"><audio src="wavs\StyleSpeech\unseen\She can scoop these things into three red bags , and we will go meet her Wednesday at the train station ._p238.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
+    </tr>
+  
+    <tr>
+      <th style="text-align: left"><strong>Proposed</strong></th>
+      <td style="text-align: left"><audio src="wavs\Meta-StyleSpeech\unseen\VCTK\She can scoop these things into three red bags , and we will go meet her Wednesday at the train station ._p238.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
+    </tr>
+  
+</table>  
+    
+    
   </body>
 </html>
 
