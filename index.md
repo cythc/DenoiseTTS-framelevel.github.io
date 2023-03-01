@@ -27,7 +27,7 @@
 <h2>1. Synthesized samples -- Multi-speaker<a name="multi-speaker"></a></h2>
 <h3> Using three reference audios </h3>
     
-<table>
+<table class='table'>
     <tr>
       <th style="text-align: left">Models</th>
       <td style="text-align: left">p259: Behind him was his brother.</td>
@@ -45,21 +45,25 @@
       <td style="text-align: left"><audio src="wavs\GT\seen\Behind him was his brother ._p259.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\GT\seen\You have to see the work ._p261.wav" controls="" preload=""></audio></td>
     </tr>
+  
     <tr>
       <th style="text-align: left"><strong>Proposed-advenr-advpitch</strong></th>
       <td style="text-align: left"><audio src="wavs\FS2-speakerID\Behind him was his brother ._p259.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\FS2-speakerID\You have to see the work ._p261.wav" controls="" preload=""></audio></td>
     </tr>
+  
     <tr>
       <th style="text-align: left"><strong>Proposed-advpitch></th>
       <td style="text-align: left"><audio src="wavs\StyleSpeech\seen\Behind him was his brother .-p259.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\StyleSpeech\seen\You have to see the work .-p261.wav" controls="" preload=""></audio></td>
     </tr>
+  
     <tr>
       <th style="text-align: left"><strong>Proposed</strong></th>
       <td style="text-align: left"><audio src="wavs\Meta-StyleSpeech\seen\Behind him was his brother .-p259.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\Meta-StyleSpeech\seen\You have to see the work .-p261.wav" controls="" preload=""></audio></td>
     </tr>
+  
 </table>
     
     
