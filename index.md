@@ -26,45 +26,7 @@
     
 <h2>1. Synthesized samples -- Multi-speaker<a name="multi-speaker"></a></h2>
 <h3> Using three reference audios </h3>
-    
-<table class='table'>
-    <tr>
-      <th style="text-align: left">Models</th>
-      <td style="text-align: left">p259: Behind him was his brother.</td>
-      <td style="text-align: left">P261: You have to see the work.</td>
-    </tr>
-  
-    <tr>
-      <th style="text-align: left"><strong>FS2</strong></th>
-      <td style="text-align: left"><audio src="wavs\GT\seen\If that's the case , he will struggle ._p259.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\GT\seen\It was a poor performance ._p261.wav" controls="" preload=""></audio></td>
-    </tr>
-  
-    <tr>
-      <th style="text-align: left"><strong>Baseline</strong></th>
-      <td style="text-align: left"><audio src="wavs\GT\seen\Behind him was his brother ._p259.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\GT\seen\You have to see the work ._p261.wav" controls="" preload=""></audio></td>
-    </tr>
-  
-    <tr>
-      <th style="text-align: left"><strong>Proposed-advenr-advpitch</strong></th>
-      <td style="text-align: left"><audio src="wavs\FS2-speakerID\Behind him was his brother ._p259.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\FS2-speakerID\You have to see the work ._p261.wav" controls="" preload=""></audio></td>
-    </tr>
-  
-    <tr>
-      <th style="text-align: left"><strong>Proposed-advpitch></th>
-      <td style="text-align: left"><audio src="wavs\StyleSpeech\seen\Behind him was his brother .-p259.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\StyleSpeech\seen\You have to see the work .-p261.wav" controls="" preload=""></audio></td>
-    </tr>
-  
-    <tr>
-      <th style="text-align: left"><strong>Proposed</strong></th>
-      <td style="text-align: left"><audio src="wavs\Meta-StyleSpeech\seen\Behind him was his brother .-p259.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\Meta-StyleSpeech\seen\You have to see the work .-p261.wav" controls="" preload=""></audio></td>
-    </tr>
-  
-</table>
+
     
     
     
@@ -83,8 +45,6 @@
 </tbody>
 </table>
    
-    
-    
     
     
 <h3> Here we present the synthesized audios from different models, which are trained with real-world noisy dataset.</h3>
