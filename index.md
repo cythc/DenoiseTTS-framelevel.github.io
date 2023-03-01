@@ -89,7 +89,7 @@
          <tr>
             <td>Female</td>
             <td><audio src="wavs\dengziqi_96.wav" controls="" preload=""></audio></td>
-            <td><audio src="wavs\dengziqi_72.wav" controls="" preload=""></audio></td>
+            <td><audio src="wavs\dengziqi_64.wav" controls="" preload=""></audio></td>
         </tr>
 </tbody>
 </table>
@@ -139,7 +139,7 @@
 <table class="table">
 <tbody>
          <tr>
-            <td>Female</td>
+            <td>Male</td>
             <td><audio src="wavs\许嵩_24.wav" controls="" preload=""></audio></td>
             <td><audio src="wavs\许嵩_25.wav" controls="" preload=""></audio></td>
         </tr>
