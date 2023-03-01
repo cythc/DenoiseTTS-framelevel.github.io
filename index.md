@@ -24,7 +24,6 @@
     
     
     
-    
 <h2>1. Synthesized samples -- Multi-speaker<a name="multi-speaker"></a></h2>
 <h3> Using three reference audios </h3>
     
@@ -83,12 +82,12 @@
     
     
 <h2>2. Synthesized samples -- Few-shot Artificial<a name="fewshot-artificial"></a></h2>
-<h3> The noise audios below are obtained by adding noise to clean audios</h3>
+<h3> Here we present noisy audios from a female, whose noisy audios are obtained by adding noise to clean audio</h3>
 
 <table class="table">
 <tbody>
          <tr>
-            <td>Male</td>
+            <td>Female</td>
             <td><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
             <td><audio src="wavs\GT\unseen\The project has already secured the support of Sir Sean Connery ._p237.wav" controls="" preload=""></audio></td>
         </tr>
@@ -99,7 +98,7 @@
     
     
     
-<h3> These are synthesized sampels </h3>
+<h3> Here we present the synthesized audios from different models, which are trained with real-world noisy dataset.</h3>
 <table>
     <tr>
       <th style="text-align: left">Models</th>
@@ -136,7 +135,7 @@
     
     
 <h2>3. Synthesized samples -- Few-shot Real World<a name="fewshot-realworld"></a></h2>
-    
+<h3>Here we present noisy audios from a male, whose noisy audios are from real-world. </h3>
 <table class="table">
 <tbody>
          <tr>
@@ -148,7 +147,7 @@
 </table>
     
     
-    
+<h3>Here we present the synthesized audios from different models, which are trained with real-world noisy dataset.</h3>    
     
 <table>
     <tr>
