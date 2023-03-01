@@ -164,7 +164,7 @@
   
     <tr>
       <th style="text-align: left"><strong>Baseline</strong></th>
-      <td style="text-align: left"><audio src="wavs\xs-baseline1" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\xs-baseline1.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\xs-baseline2.wav" controls="" preload=""></audio></td>
     </tr>
   
@@ -176,8 +176,8 @@
   
     <tr>
       <th style="text-align: left"><strong>Proposed</strong></th>
-      <td style="text-align: left"><audio src="wavs\xs-proposed1.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\xs-proposed2.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\xs-proposed1.wav" controls="" preload=""></audio></td>
     </tr>
   
 </table>  
