@@ -26,13 +26,50 @@
     
 <h2>1. Synthesized samples -- Multi-speaker<a name="multi-speaker"></a></h2>
 <h3> Using three reference audios </h3>
-
+<table>
+    <tr>
+      <th style="text-align: left">Models</th>
+      <td style="text-align: left">居然故意引我说错话。</td>
+      <td style="text-align: left">极速向宠物医院骑去。</td>
+    </tr>
+  
+    <tr>
+      <th style="text-align: left"><strong>FS2</strong></th>
+      <td style="text-align: left"><audio src="wavs\dzq-fs1.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\dzq-fs2.wav" controls="" preload=""></audio></td>
+    </tr>
+  
+    <tr>
+      <th style="text-align: left"><strong>Baseline</strong></th>
+      <td style="text-align: left"><audio src="wavs\dzq-baseline1.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\dzq-baseline2.wav" controls="" preload=""></audio></td>
+    </tr>
+  
+    <tr>
+      <th style="text-align: left"><strong>Proposed-advenr-advpitch</strong></th>
+      <td style="text-align: left"><audio src="wavs\dzq-advenr1.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\dzq-advenr2.wav" controls="" preload=""></audio></td>
+    </tr>
+  
+    <tr>
+      <th style="text-align: left"><strong>Proposed-advpitch</strong></th>
+      <td style="text-align: left"><audio src="wavs\dzq-advenr1.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\dzq-advenr2.wav" controls="" preload=""></audio></td>
+    </tr>
+  
+    <tr>
+      <th style="text-align: left"><strong>Proposed</strong></th>
+      <td style="text-align: left"><audio src="wavs\dzq-proposed1.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\dzq-proposed2.wav" controls="" preload=""></audio></td>
+    </tr>
+  
+</table>
     
-    
-    
+   
     
     
 <h2>2. Synthesized samples -- Few-shot Artificial<a name="fewshot-artificial"></a></h2>
+    
 <h3> Here we present noisy audios from a female, whose noisy audios are obtained by adding noise to clean audio</h3>
 
 <table class="table">
@@ -79,11 +116,12 @@
       <td style="text-align: left"><audio src="wavs\dzq-proposed2.wav" controls="" preload=""></audio></td>
     </tr>
   
-    </table>
+</table>
 
     
     
 <h2>3. Synthesized samples -- Few-shot Real World<a name="fewshot-realworld"></a></h2>
+    
 <h3>Here we present noisy audios from a male, whose noisy audios are from real-world. </h3>
 <table class="table">
 <tbody>
@@ -97,7 +135,6 @@
     
     
 <h3>Here we present the synthesized audios from different models, which are trained with real-world noisy dataset.</h3>    
-    
 <table>
     <tr>
       <th style="text-align: left">Models</th>
