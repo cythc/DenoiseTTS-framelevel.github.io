@@ -27,6 +27,7 @@
     
 <h2>1. Synthesized samples -- Multi-speaker<a name="multi-speaker"></a></h2>
 <h3> Using three reference audios </h3>
+    
 <table>
     <tr>
       <th style="text-align: left">Models</th>
@@ -83,15 +84,16 @@
     
 <h2>2. Synthesized samples -- Few-shot Artificial<a name="fewshot-artificial"></a></h2>
 <h3> The noise audios below are obtained by adding noise to clean audios</h3>
-    <table class="table" style="width:10%">
-      <tbody>
+
+<table class="table">
+<tbody>
          <tr>
             <td>reference audios</td>
             <td><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
             <td><audio src="wavs\GT\unseen\The project has already secured the support of Sir Sean Connery ._p237.wav" controls="" preload=""></audio></td>
         </tr>
-      </tbody>
-    </table>
+</tbody>
+</table>
    
     
     
