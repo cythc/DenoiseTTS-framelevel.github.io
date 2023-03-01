@@ -35,45 +35,30 @@
     </tr>
   
     <tr>
-      <th style="text-align: left"><strong>reference audios</strong></th>
+      <th style="text-align: left"><strong>FS2</strong></th>
       <td style="text-align: left"><audio src="wavs\GT\seen\If that's the case , he will struggle ._p259.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\GT\seen\It was a poor performance ._p261.wav" controls="" preload=""></audio></td>
     </tr>
   
     <tr>
-      <th style="text-align: left"><strong>Ground Truth</strong></th>
+      <th style="text-align: left"><strong>Baseline</strong></th>
       <td style="text-align: left"><audio src="wavs\GT\seen\Behind him was his brother ._p259.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\GT\seen\You have to see the work ._p261.wav" controls="" preload=""></audio></td>
     </tr>
     <tr>
-      <th style="text-align: left"><strong>FS2+speaker ID</strong></th>
+      <th style="text-align: left"><strong>Proposed-advenr-advpitch</strong></th>
       <td style="text-align: left"><audio src="wavs\FS2-speakerID\Behind him was his brother ._p259.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\FS2-speakerID\You have to see the work ._p261.wav" controls="" preload=""></audio></td>
     </tr>
     <tr>
-      <th style="text-align: left"><strong>StyleSpeech</strong></th>
+      <th style="text-align: left"><strong>Proposed-advpitch></th>
       <td style="text-align: left"><audio src="wavs\StyleSpeech\seen\Behind him was his brother .-p259.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\StyleSpeech\seen\You have to see the work .-p261.wav" controls="" preload=""></audio></td>
     </tr>
     <tr>
-      <th style="text-align: left"><strong>Meta-StyleSpeech</strong></th>
+      <th style="text-align: left"><strong>Proposed</strong></th>
       <td style="text-align: left"><audio src="wavs\Meta-StyleSpeech\seen\Behind him was his brother .-p259.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\Meta-StyleSpeech\seen\You have to see the work .-p261.wav" controls="" preload=""></audio></td>
-    </tr>
-    <tr>
-      <th style="text-align: left"><strong>MRMI-TTS w/o discriminator</strong></th>
-      <td style="text-align: left"><audio src="wavs\withou_D\seen\Behind him was his brother ._p259.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\withou_D\seen\You have to see the work ._p261.wav" controls="" preload=""></audio></td>      
-    </tr>
-    <tr>
-      <th style="text-align: left"><strong>MRMI-TTS w/o MI</strong></th>
-      <td style="text-align: left"><audio src="wavs\without_MI\Behind him was his brother ._p259.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\without_MI\You have to see the work ._p261.wav" controls="" preload=""></audio></td>      
-    </tr>
-    <tr>
-      <th style="text-align: left"><strong>MRMI-TTS</strong></th>
-      <td style="text-align: left"><audio src="wavs\ours\seen\Behind him was his brother ._p259.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\ours\seen\You have to see the work ._p261.wav" controls="" preload=""></audio></td>      
     </tr>
 </table>
     
