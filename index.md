@@ -108,26 +108,26 @@
   
     <tr>
       <th style="text-align: left"><strong>FS2</strong></th>
-      <td style="text-align: left"><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\dzq-fs1.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\dzq-fs2.wav" controls="" preload=""></audio></td>
     </tr>
   
     <tr>
       <th style="text-align: left"><strong>Baseline</strong></th>
-      <td style="text-align: left"><audio src="wavs\GT\unseen\She can scoop these things into three red bags , and we will go meet her Wednesday at the train station ._p238.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\dzq-baseline1.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\dzq-baseline2.wav" controls="" preload=""></audio></td>
     </tr>
   
     <tr>
       <th style="text-align: left"><strong>Proposed-advpitch</strong></th>
-      <td style="text-align: left"><audio src="wavs\StyleSpeech\unseen\She can scoop these things into three red bags , and we will go meet her Wednesday at the train station ._p238.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\dzq-advenr1.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\dzq-advenr2.wav" controls="" preload=""></audio></td>
     </tr>
   
     <tr>
       <th style="text-align: left"><strong>Proposed</strong></th>
-      <td style="text-align: left"><audio src="wavs\Meta-StyleSpeech\unseen\VCTK\She can scoop these things into three red bags , and we will go meet her Wednesday at the train station ._p238.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\GT\unseen\Frankly , it was worth the booking ._p238.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\dzq-proposed1.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\dzq-proposed2.wav" controls="" preload=""></audio></td>
     </tr>
   
     </table>
