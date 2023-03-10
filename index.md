@@ -26,7 +26,7 @@
     
 <h2>1. Synthesized samples -- Multi-speaker<a name="multi-speaker"></a></h2>
     
-<h3> Here we present a piece of noisy and clean audio of reference speaker to extract Zs in our multi-speaker database.</h3>
+<h3> Here we present a piece of noisy and clean audio of reference speaker in our multi-speaker database.</h3>
 
 <table class="table">
 <tbody>
