@@ -22,15 +22,29 @@
 </ol>
 
     
-    
-    
 <h2>1. Synthesized samples -- Multi-speaker<a name="multi-speaker"></a></h2>
+    
+<h3> Here we present a piece of noisy audio and clean audio of speaker in our multi-speaker database.</h3>
+
+<table class="table">
+<tbody>
+         <tr>
+            <td>Female</td>
+            <td><audio src="wavs\spk30-noise.wav" controls="" preload=""></audio></td>
+            <td><audio src="wavs\spk30-clean.wav" controls="" preload=""></audio></td>
+        </tr>
+</tbody>
+</table>    
+    
+<h3> Here we present the synthesized audios from different models using noisy and clean Zs.</h3>
+    
+
 <h3> Using three reference audios </h3>
 <table>
     <tr>
       <th style="text-align: left">Models</th>
-      <td style="text-align: left">noisy Zs。</td>
-      <td style="text-align: left">clean Zs。</td>
+      <td style="text-align: left">noisy Zs</td>
+      <td style="text-align: left">clean Zs</td>
     </tr>
   
     <tr>
