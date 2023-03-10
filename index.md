@@ -8,11 +8,11 @@
   </head>
   <body>
 
-<h2>Title<a name="title"></a></h2>
+<h2>Title<a name="Robust Few-shot Speech Synthesis with Fine-grained Noise Modeling via Adversarial Factorization"></a></h2>
     
 <h2>Abstract<a name="abstract"></a></h2>
 
-<p>Zero-shot text-to-speech aims to clone target speaker’s voice with only a few data of any target speakers even unseen in training set. Existing multi-speaker systems are capable of preforming high-fidelity speech generation, but clone unseen speakers’ voices is still a challenging task. To generalize to new speakers, previous works use speaker encoder to obtain fixed-size speaker embedding from single reference audio. However single reference audio dose not contain sufficient timbre information of the target speaker, and ignores the correlation between different speech representations during training, which causes leakage of content information into the speaker representation and thus degrades text-to-speech performances. In this paper, we propose to mitigate these two problems by using multiple reference audios and use content encoder and speaker encoder to obtain content embedding and speaker embedding of reference audios. To get more disentangled representations, the proposed method further uses mutual information minimization between the two embeddings to remove entangled information within each embedding. Experiments on VCTK dataset indicate that our method can improve synthesized speech both in similarity and naturalness even unseen people.</p>
+<p>Few-shot speech synthesis aims to synthesize speech using target speaker's voice with limited data. Pre-training and fine-tuning techniques often work well with high-quality data. Nevertheless, it is usually costly to collect in real applications, which presents challenge to synthesize clean speech from noisy data. Previous studies introduce an additional noise control module to address the problem. However, a single noise embedding is difficult to capture the complicated acoustic condition, such as the type and level of background noise vary along time. In this paper, we present a noise-robust speech synthesis system by integrating disentangled, fine-grained features. These fine-grained features learn to present local noise variations disentangled from prosody. Multi-speaker and adaptation experiments are conducted with real-world and artificial noisy data. Results show the effectiveness of our method compared to baselines under both of the two noisy conditions.</p>
 
 <h2>Contents</h2>
 <ol>
@@ -29,38 +29,31 @@
 <table>
     <tr>
       <th style="text-align: left">Models</th>
-      <td style="text-align: left">居然故意引我说错话。</td>
-      <td style="text-align: left">极速向宠物医院骑去。</td>
+      <td style="text-align: left">noisy Zs。</td>
+      <td style="text-align: left">clean Zs。</td>
     </tr>
   
     <tr>
-      <th style="text-align: left"><strong>FS2</strong></th>
-      <td style="text-align: left"><audio src="wavs\dzq-fs1.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\dzq-fs2.wav" controls="" preload=""></audio></td>
+      <th style="text-align: left"><strong>Base-FS</strong></th>
+      <td style="text-align: left"><audio src="wavs\fs.wav" controls="" preload=""></audio></td>
     </tr>
   
     <tr>
-      <th style="text-align: left"><strong>Baseline</strong></th>
-      <td style="text-align: left"><audio src="wavs\dzq-baseline1.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\dzq-baseline2.wav" controls="" preload=""></audio></td>
+      <th style="text-align: left"><strong>Base-Utt</strong></th>
+      <td style="text-align: left"><audio src="wavs\baseline.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\baseline-clean.wav" controls="" preload=""></audio></td>
     </tr>
   
     <tr>
-      <th style="text-align: left"><strong>Proposed-advenr-advpitch</strong></th>
-      <td style="text-align: left"><audio src="wavs\dzq-advenr1.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\dzq-advenr2.wav" controls="" preload=""></audio></td>
-    </tr>
-  
-    <tr>
-      <th style="text-align: left"><strong>Proposed-advpitch</strong></th>
-      <td style="text-align: left"><audio src="wavs\dzq-advenr1.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\dzq-advenr2.wav" controls="" preload=""></audio></td>
+      <th style="text-align: left"><strong>Proposed(w/o advpitch)</strong></th>
+      <td style="text-align: left"><audio src="wavs\advenr.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\advenr-clean.wav" controls="" preload=""></audio></td>
     </tr>
   
     <tr>
       <th style="text-align: left"><strong>Proposed</strong></th>
-      <td style="text-align: left"><audio src="wavs\dzq-proposed1.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="wavs\dzq-proposed2.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\advenr-advpitch.wav" controls="" preload=""></audio></td>
+      <td style="text-align: left"><audio src="wavs\advenr-advpitch-clean.wav" controls="" preload=""></audio></td>
     </tr>
   
 </table>
@@ -93,19 +86,19 @@
     </tr>
   
     <tr>
-      <th style="text-align: left"><strong>FS2</strong></th>
+      <th style="text-align: left"><strong>Base-FS</strong></th>
       <td style="text-align: left"><audio src="wavs\dzq-fs1.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\dzq-fs2.wav" controls="" preload=""></audio></td>
     </tr>
   
     <tr>
-      <th style="text-align: left"><strong>Baseline</strong></th>
+      <th style="text-align: left"><strong>Base-Utt</strong></th>
       <td style="text-align: left"><audio src="wavs\dzq-baseline1.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\dzq-baseline2.wav" controls="" preload=""></audio></td>
     </tr>
   
     <tr>
-      <th style="text-align: left"><strong>Proposed-advpitch</strong></th>
+      <th style="text-align: left"><strong>Proposed(w/o advpitch)</strong></th>
       <td style="text-align: left"><audio src="wavs\dzq-advenr1.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\dzq-advenr2.wav" controls="" preload=""></audio></td>
     </tr>
@@ -143,19 +136,19 @@
     </tr>
   
     <tr>
-      <th style="text-align: left"><strong>FS2</strong></th>
+      <th style="text-align: left"><strong>Base-FS</strong></th>
       <td style="text-align: left"><audio src="wavs\xs-fs1.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\xs-fs2.wav" controls="" preload=""></audio></td>
     </tr>
   
     <tr>
-      <th style="text-align: left"><strong>Baseline</strong></th>
+      <th style="text-align: left"><strong>Base-Utt</strong></th>
       <td style="text-align: left"><audio src="wavs\xs-baseline1.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\xs-baseline2.wav" controls="" preload=""></audio></td>
     </tr>
   
     <tr>
-      <th style="text-align: left"><strong>Proposed-advpitch</strong></th>
+      <th style="text-align: left"><strong>Proposed(w/o advpitch)</strong></th>
       <td style="text-align: left"><audio src="wavs\xs-advenr1.wav" controls="" preload=""></audio></td>
       <td style="text-align: left"><audio src="wavs\xs-advenr2.wav" controls="" preload=""></audio></td>
     </tr>
