@@ -49,7 +49,7 @@
   
     <tr>
       <th style="text-align: left"><strong>Base-FS</strong></th>
-      <td style="text-align: left"><audio src="wavs\fs.wav" controls="" preload=""></audio></td>
+      <td colspan="2" style="text-align: left"><audio src="wavs\fs.wav" controls="" preload=""></audio></td>
     </tr>
   
     <tr>
