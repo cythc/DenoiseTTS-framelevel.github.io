@@ -8,7 +8,9 @@
   </head>
   <body>
 
-<h2>Title<a name="Robust Few-shot Speech Synthesis with Fine-grained Noise Modeling via Adversarial Factorization"></a></h2>
+<h2>Title<a name="Title"></a></h2>
+    
+<p>Robust Few-shot Speech Synthesis with Fine-grained Noise Modeling via Adversarial Factorization<p>
     
 <h2>Abstract<a name="abstract"></a></h2>
 
@@ -24,7 +26,7 @@
     
 <h2>1. Synthesized samples -- Multi-speaker<a name="multi-speaker"></a></h2>
     
-<h3> Here we present a piece of noisy audio and clean audio of speaker in our multi-speaker database.</h3>
+<h3> Here we present a piece of noisy and clean audio of reference speaker to extract Zs in our multi-speaker database.</h3>
 
 <table class="table">
 <tbody>
@@ -36,7 +38,7 @@
 </tbody>
 </table>    
     
-<h3> Here we present the synthesized audios from different models using noisy and clean Zs.</h3>
+<h3> Here we present the synthesized audios from different models using noisy and clean audios to extract Zs.</h3>
     
 
 <h3> Using three reference audios </h3>
@@ -48,7 +50,7 @@
     </tr>
   
     <tr>
-      <th style="text-align: left"><strong>Base-FS</strong></th>
+      <th style="text-align: center"><strong>Base-FS</strong></th>
       <td colspan="2" style="text-align: left"><audio src="wavs\fs.wav" controls="" preload=""></audio></td>
     </tr>
   
