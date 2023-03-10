@@ -45,8 +45,8 @@
 <table>
     <tr>
       <th style="text-align: left">Models</th>
-      <td style="text-align: left">noisy Zs</td>
-      <td style="text-align: left">clean Zs</td>
+      <td style="text-align: center">noisy Zs</td>
+      <td style="text-align: center">clean Zs</td>
     </tr>
   
     <tr>
